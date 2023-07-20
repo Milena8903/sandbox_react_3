@@ -42,7 +42,7 @@ const PlusIcon =()=>{
         //Manejar el formulario
         try {
 
-            const response= await fetch('http://localhost:8080/students',
+            const response= await fetch('http://localhost:8080/paciente',
             {
                 method:'POST',
                 headers:{
